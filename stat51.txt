@@ -1,0 +1,8 @@
+> library(readxl)
+> stat <- read_excel("C:/ifrath/stat.xlsx")
+> View(stat)
+> ifrath<-read_excel("C:/ifrath/stat.xlsx")
+> mean(ifrath$max_price)
+[1] 6000
+> sd(ifrath$modal_price)
+[1] 1139.566
